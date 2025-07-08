@@ -1,0 +1,35 @@
+h1 {
+    text-align:center;
+    text-decoration:underline;
+}
+body {
+    background-color: rgb(108, 73, 142);
+}
+div {
+    background-color: rgb(164, 188, 233);
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    text-align: center;
+    padding: 1PX 2PX 3PX 4PX;
+    margin: 3PX 3PX 4PX 4PX;
+}
+#pos1 {
+    position: fixed;
+    z-index: -1;
+}
+#pos2 {
+    position: relative;
+    top:10px;
+    left:20px;
+}
+#pos3 {
+       position: absolute;
+        right:20px;
+        bottom: 10;
+}
+#pos4 {
+    position: static;
+}
+ 

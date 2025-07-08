@@ -1,0 +1,46 @@
+div {
+    height: 110px;
+    width: 110px;
+    border: 2px solid black;
+    text-align: center;
+     /* transition-property: all;  */
+    /* transition-duration: 2s;  */
+     /* transition-timing-function: ease-in-out;  */
+     position: relative;
+     top: 100px; 
+     left: 100px; 
+    /* animation-name: colorAnimiate;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 5s; */
+    /* animation-direction: reverse; */
+    animation: colorAnimate 2s ease-in 0s infinite normal;
+}
+@keyframes color {
+ 0% { 
+    left: 0px;
+    background-attachment: red;
+} 
+ 50% {background-color: blue;
+}
+  100% {
+    left: 200px;
+    background-color: black;
+}
+}
+div:hover {
+     background-color: red; 
+    /* color:rgb(253, 246, 246); */
+    /* transform: scale(1.5); */
+    /* transform: rotate(360deg); */
+    /* transform: skew(360deg); */
+}
+div:active {
+    background-color: black;
+}
+#pos1 {
+    transform: scaley(0.6);
+    transform: translatex(30px);
+}
+

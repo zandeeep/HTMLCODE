@@ -1,0 +1,74 @@
+h3,h2 {
+    color:#eb761c;
+}
+h1 {
+    color:aquamarine;
+    text-align: center;
+    text-decoration:underline;
+    background-color:rgb(129, 42, 42);
+    
+
+}
+h5 {
+    color: rgb(245, 153, 135);
+}
+p {
+    color:rgb(228, 160, 242);
+}
+button {
+    color: rgb(2, 54, 100);
+    background-color:rgb(212, 209, 229);
+    display:block; 
+}
+body{
+    background-color:rgb(5, 52, 93);
+}
+#h11 {
+    color: rgb(178, 85, 167);
+}
+.myclass {
+    color:rgb(129, 245, 119)
+}
+p {
+    text-align:left;
+}
+a {
+    color: rgb(213, 204, 249);
+    text-decoration:underline;
+}
+#one {
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#two {
+    font-weight: lighter;
+    font-family: arial;
+    background-color: rgb(67, 101, 90);
+      display: inline;
+}
+#three {
+      font-weight: 800;
+      font-size:medium;
+      line-height: 30px;
+      text-transform: lowercase;
+}
+div {
+    height: 110px;
+    width: 110px;
+    background-color: rgba(255, 176, 202, 0.5);
+    border: 5px;
+    border-color: rgb(153, 158, 163);
+    border-style:double;
+    text-align: center;
+    border-radius: 30px;
+    display: inline-flex; 
+    animation: colorAnimate 2s ease-in 0s infinite normal;
+}
+#box1 {
+    background-image: url("evngbeach.jpg");
+    background-size: cover;
+}
+
+
+ 

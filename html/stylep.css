@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+}  
+div {
+    height: 110px;
+    width: 110px;
+    background-color: rgba(255, 176, 202, 0.5);
+    border: 2px solid rgba(18, 13, 13, 0.797);
+    display: inline-flex;
+}
+#container {
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: end;
+}
+#pos1 {
+    border: 5px;
+    border-color: rgb(61, 82, 103);
+    border-style: double;
+    align-self: flex-start;
+}
+#pos2 {
+    background-color: rgba(255, 176, 202, 0.5);
+    border: 5px;
+    border-color: rgb(113, 69, 120);
+    border-style:double;
+    text-align: center;
+}
+#pos3 {
+    background-color:rgba(255, 176, 202, 0.5);
+    border:5px;
+    border-color:rgb(73, 33, 184);
+    border-style:double;
+    text-align:center;
+}
+#pos4 {
+    background-color: rgba(255, 176, 202, 0.5);
+    border: 5px;
+    border-color: rgb(222, 240, 161);
+    border-style: double;
+    text-align: center;
+    flex-shrink: 5;
+}
+#pos5 {
+    flex-shrink: 2;
+}
+
+
+
+
